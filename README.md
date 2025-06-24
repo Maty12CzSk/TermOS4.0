@@ -28,7 +28,7 @@ To build and run TermOS 4.0:
 
 ```bash
 make
-make run
+make run```
 
 ## Fedora Compatibility Note
 
