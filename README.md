@@ -26,10 +26,6 @@ To build and run TermOS 4.0:
 2. Use `make` to compile the OS  
 3. Run it easily with `make run`, which will automatically launch the OS in QEMU
 
-```bash
-make
-make run```
-
 ## Fedora Compatibility Note
 
 If you're using Fedora, you may need to install some packages and modify the Makefile:
