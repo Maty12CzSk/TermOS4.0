@@ -1,6 +1,7 @@
 # TermOS 4.0
 
-TermOS 4.0 Backup is a fully functional minimalist operating system developed as a personal project. It is written in C and Assembly, focusing on core OS concepts and functionality.
+TermOS 4.0 is a fully functional minimalist operating system developed as a personal project.  
+It is written in C and Assembly, focusing on core OS concepts and terminal-based functionality.
 
 ## Features
 
@@ -14,8 +15,8 @@ TermOS 4.0 Backup is a fully functional minimalist operating system developed as
 
 ## Current Limitations
 
-- FAT16 file system support is under development and not included in this stable backup version
-- No graphical user interface yet; purely text-mode OS
+- FAT16 file system support is under development and not yet functional in this version
+- No graphical user interface; purely text-mode OS
 
 ## Getting Started
 
@@ -29,4 +30,10 @@ To build and run TermOS 4.0:
 make
 make run
 
-# Maty12CzSk
+## Fedora Compatibility Note
+
+If you're using Fedora, you may need to install some packages and modify the Makefile:
+
+sudo dnf install glibc-devel.i686 xorriso
+
+And change grub-mkconfig to grub2-mkconfig in the makefile if needed.
